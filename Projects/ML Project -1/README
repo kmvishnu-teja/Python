@@ -1,0 +1,34 @@
+
+ Molecular Solubility Prediction with Linear Regression
+
+This project focuses on predicting the solubility (logS) of molecules using a linear regression model.  It leverages a dataset of molecular descriptors to predict the solubility, a crucial property in drug discovery and materials science.
+
+**Key Features:**
+
+* **Data Loading and Preparation:** Uses Pandas to load and preprocess the Delaney's solubility dataset.
+* **Feature-Target Separation:** Clearly separates molecular descriptors (features - X) from the solubility values (target - Y).
+* **Train-Test Split:** Implements scikit-learn's `train_test_split` for robust model evaluation.
+* **Linear Regression Modeling:** Builds and trains a linear regression model using scikit-learn.
+* **Model Evaluation:** Evaluates model performance and visualizes results with scatter plots.
+
+**Tech Stack:**
+
+* Python
+* Pandas
+* Scikit-learn
+* Matplotlib
+* Seaborn
+
+**Getting Started:**
+
+1.  Clone the repository: `https://github.com/dataprofessor/data/blob/master/delaney_solubility_with_descriptors.csv`
+2.  Install the required libraries:  (You might want to include a `requirements.txt` file. If not, list key libraries)  `pip install pandas scikit-learn matplotlib seaborn`
+3.  Run the Jupyter Notebook: `ML_project - 1.ipynb`
+
+**Dataset:**
+
+The dataset used is the Delaney's solubility dataset, available from:  (Include the link if possible, or mention the source)
+
+**Results:**
+
+The linear regression model demonstrated good predictive accuracy, as shown in the scatter plot of actual vs. predicted values. (You can add any specific metrics like R-squared if you calculate them).
